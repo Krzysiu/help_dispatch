@@ -1,0 +1,6 @@
+// Change URLHERE to URL of the tool
+//
+// For debugging change NPP_CONSOLE 0 to NPP_CONSOLE 1
+
+NPP_CONSOLE 0
+npp_run http://URLHERE/dispatch.php?term=$(CURRENT_WORD)&ext=$(EXT_PART)
